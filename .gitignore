@@ -1,4 +1,4 @@
-.env
+controllers/
 node_modules/
 
 # for VS Code
