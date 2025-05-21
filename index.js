@@ -6,8 +6,6 @@ import boardRoutes from './routes/Boards.routes.js';
 import taskRoutes from './routes/Task.routes.js';
 
 dotenv.config({ path: './config/config.env' });
-
-// Connect to MongoDB
 connectDB();
 
 const app = express();
