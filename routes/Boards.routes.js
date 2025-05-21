@@ -2,7 +2,9 @@ import express from 'express';
 import {
   getAllBoards,
   createBoard,
-  getBoardById
+  getBoardById,
+  updateBoard,
+  deleteBoard
 } from "../controllers/taskManagerController.js";
 
 const router = express.Router();
